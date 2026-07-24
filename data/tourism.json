@@ -1,0 +1,50 @@
+[
+    {
+        "name": "象山影视城",
+        "category": "Cultural Tourism",
+        "description": "Film and television themed tourism area.",
+        "lat": 29.425,
+        "lng": 121.863,
+        "rating": 5
+    },
+
+
+    {
+        "name": "松兰山旅游度假区",
+        "category": "Coastal Tourism",
+        "description": "Beach and coastal recreation destination.",
+        "lat": 29.477,
+        "lng": 121.956,
+        "rating": 4
+    },
+
+
+    {
+        "name": "石浦古镇",
+        "category": "Historical Tourism",
+        "description": "Historic fishing town of Xiangshan.",
+        "lat": 29.197,
+        "lng": 121.947,
+        "rating": 5
+    },
+
+
+    {
+        "name": "中国渔村",
+        "category": "Fishing Culture",
+        "description": "Traditional fishing culture tourism area.",
+        "lat": 29.173,
+        "lng": 121.944,
+        "rating": 4
+    },
+
+
+    {
+        "name": "花岙岛",
+        "category": "Island Tourism",
+        "description": "Island landscape and geological attraction.",
+        "lat": 29.055,
+        "lng": 121.976,
+        "rating": 5
+    }
+]

@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>
+        Xiangshan Smart Tourism GIS Platform
+    </title>
+
+
+    <!-- Leaflet GIS library -->
+    <link 
+    rel="stylesheet" 
+    href="https://unpkg.com/leaflet/dist/leaflet.css" />
+
+
+    <!-- Our own CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+<header class="header">
+
+<h1>
+Xiangshan Smart Tourism GIS Platform
+</h1>
+
+
+<p>
+A GIS-based smart tourism decision support system
+</p >
+
+</header>
+
+
+<header>
+
+    <h1>
+        Xiangshan Smart Tourism GIS Platform
+    </h1>
+
+    <p>
+        Smart Tourism • Geographic Information System
+    </p >
+
+</header>
+
+
+
+<section class="intro">
+
+    <h2>
+        Explore Xiangshan Tourism Resources
+    </h2>
+
+    <p>
+        An interactive GIS platform visualizing tourism
+        resources in Xiangshan County, Ningbo, China.
+    </p >
+
+</section>
+
+<!-- Map Filter Buttons -->
+
+<div class="filter">
+
+<button onclick="filterMarkers('All')">
+All
+</button>
+
+
+<button onclick="filterMarkers('Attraction')">
+🏝 Attractions
+</button>
+
+
+<button onclick="filterMarkers('Food')">
+🍽 Food
+</button>
+
+
+<button onclick="filterMarkers('Hotel')">
+🏨 Hotels
+</button>
+
+
+<button onclick="filterMarkers('Transportation')">
+🚌 Transportation
+</button>
+
+</div>
+
+<!-- Smart Recommendation -->
+
+
+<section class="recommendation">
+
+
+<h2>
+Smart Tourism Recommendation
+</h2>
+
+
+<p>
+Choose your travel preference:
+</p >
+
+
+
+<select id="interest">
+
+
+<option value="All">
+All
+</option>
+
+
+<option value="Attraction">
+Scenery & Culture
+</option>
+
+
+<option value="Food">
+Food Experience
+</option>
+
+
+<option value="Hotel">
+Accommodation
+</option>
+
+
+<option value="Transportation">
+Transportation
+</option>
+
+
+</select>
+
+
+
+<button onclick="recommend()">
+    
+Recommend
+
+</button>
+<div class="route">
+
+<h3>
+Smart Travel Route
+</h3>
+
+
+<button onclick="generateRoute()">
+
+Generate 2-Day Route
+
+</button>
+
+
+<div id="routeResult">
+
+</div>
+<!-- Distance Calculator -->
+
+
+<div class="distance">
+
+
+<h3>
+GIS Distance Analysis
+</h3>
+
+
+<select id="startPoint">
+
+<option value="center">
+象山县中心
+</option>
+
+</select>
+
+
+
+<select id="destination">
+
+<option value="songlan">
+松兰山旅游度假区
+</option>
+
+
+<option value="shipu">
+石浦古镇
+</option>
+
+
+<option value="film">
+象山影视城
+</option>
+
+
+<option value="fish">
+中国渔村
+</option>
+
+
+</select>
+
+
+
+<button onclick="calculateDistance()">
+
+Calculate Distance
+
+</button>
+
+
+
+<div id="distanceResult">
+
+</div>
+
+
+</div>
+
+
+</div>
+
+
+
+<div id="result">
+
+</div>
+
+
+</section>
+
+<!-- GIS MAP -->
+
+<div id="map">
+
+
+<div class="legend">
+
+
+<h3>
+Legend
+</h3>
+
+
+<p>
+🏝 Attraction
+</p >
+
+
+<p>
+🍽 Food
+</p >
+
+
+<p>
+🏨 Hotel
+</p >
+
+
+<p>
+🚌 Transportation
+</p >
+
+
+</div>
+
+
+</div>
+
+
+
+<section class="dashboard">
+
+
+<div class="card">
+
+<h3>
+Total Resources
+</h3>
+
+<p id="total">
+0
+</p >
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Attractions
+</h3>
+
+<p id="attractionCount">
+0
+</p >
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Food Spots
+</h3>
+
+<p id="foodCount">
+0
+</p >
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Hotels
+</h3>
+
+<p id="hotelCount">
+0
+</p >
+
+</div>
+
+
+
+<div class="card">
+
+<h3>
+Transportation
+</h3>
+
+<p id="transportCount">
+0
+</p >
+
+</div>
+
+
+</section>
+
+
+
+<section class="about">
+
+<h2>
+About This Project
+</h2>
+
+
+<p>
+
+This project combines Computer Science and Geographic
+Information Systems to develop a smart tourism platform
+for Xiangshan County.
+
+</p >
+
+
+</section>
+
+
+
+<!-- Leaflet JS -->
+
+<script 
+src="https://unpkg.com/leaflet/dist/leaflet.js">
+</script>
+
+
+<!-- Our JavaScript -->
+
+<script src="script.js"></script>
+
+
+</body>
+
+</html>
