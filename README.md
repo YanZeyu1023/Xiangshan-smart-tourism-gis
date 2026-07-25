@@ -1,26 +1,20 @@
 # Xiangshan Smart Tourism GIS Platform
 
-## Project Preview
 
 ### Homepage
-
 ![Homepage](images/Homepage.png)
 
 ### Interactive Map
-
-![Interactive Map](images/InteractiveMap.png)
+![Interactive Map](images/Interactive%20Map.png)
 
 ### Recommendation
-
-![Recommendation](images/recommendation.png)
+![Recommendation](images/recommendation.png.jpg)
 
 ### Distance Analysis
-
-![Distance](images/distance-analysis.png.jpg)
+![Distance](images/distance-analysis.png)
 
 ### Dashboard
-
-![Dashboard](images/dashboard.png)## About This Project
+![Dashboard](images/dashboard.png)
 This project is a web-based GIS tourism platform for Xiangshan County, Ningbo, China.
 I built this project from scratch to explore how GIS and computer programming can organize fragmented local travel data and create a straightforward interactive map for tourists.
 
