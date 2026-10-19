@@ -101,7 +101,7 @@ This project is an exploration of how computer science can solve real geographic
 This project gave me a chance to actually combine front-end coding with GIS tools and see how they work together on a real problem.
 
 ## Project Information
-Personal Portfolio Project for UIUC CS + GIS Admission
+Personal Portfolio Project for University Admission
 Developed by Zeyu Yan
 
 ## AI Usage Disclosure
