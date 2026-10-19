@@ -1,6 +1,7 @@
 # Xiangshan Smart Tourism GIS Platform
-
-
+## Project Archival Note
+ 
+This repository serves as a final archival snapshot of my independent development journey. The project was iterated and completed locally over time before being uploaded here as a complete, fully functional version. All core spatial algorithms, GIS logic, and system architectures were designed and coded by me from scratch.
 ### Homepage
 ![Homepage](images/Homepage.png)
 
